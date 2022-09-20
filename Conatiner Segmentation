@@ -1,0 +1,5 @@
+
+One segmentation pattern of particular interest is for PCI-DSS compliance. Sections 1.2 and 1.3 of PCI-DSS require in-scope CDE traffic to be firewalled and segmented from all other connections. Traditionally, this was accomplished by using separate networks separated by traditional firewalls.
+While it is certainly possible to repeat this pattern for cloud native applications, doing so will ultimately add more friction to the modern CI/CD and deployment pipelines, as well as increase costs and reduce resource utilization of separate clusters. This means all of the potential benefit of cloud-native applications will not be possible to be realized.
+
+https://blog.neuvector.com/article/container-segmentation#fancyboxID-1
